@@ -7,22 +7,33 @@ We have to make cart validation system . Input will be give a database file , in
 
 Needs Java 8 installed in the system that is running the program.
 
-### Instructions to run the JAR file:
-- Open Command Prompt in the location of JAR File. <br>(Location of JAR File is: `<Present Directory>\out\artifacts\individual_project_kapilgeet123_jar\individual-project-kapilgeet123.jar)`. 
-- Run the following command in the command prompt:
-`java -jar <jar_name> "<Dataset File Path>" "<Card  File Path>" "<Input Order  File Path>"` <br>
-For Example: <br>
-`java -jar individual-project-kapilgeet123.jar "<Dataset File Path>" "<Card Information File Path>" "<Input Order Information File Path>"`
-- Output files will be created in the directory as the files provided as arguments to run the JAR. 
-for ex: The aguments to the file would look like 
-C:\...(Datasetpath)
-C:\.. (Cardfile)
-C:\..(finaloutputfile)
-## Design Patterns:
--Iterator
--Singleton
--Factory
+<h2> Instructions </h2>
+<p> Environment requirements : Eclipse IDE </p>
+<ol> 
+  
+  <li> Download the file by clicking Code -> Download ZIP on github repository </li>
+  <li> Once downloaded, extract the .zip file and copy the entire folder <b>Individual_Project_Final</b> into your Eclipse workspace.</li>
+  <li> Now, open Eclipse and go to File -> Import -> General -> Existing Projects into Workspace </li>
+  <li> In the next window, choose the <b>Individual_Project_Final folder</b> as your root directory and click "Finish"</li>
+  <li> Now, the project is imported </li>
+  <li> Add the input files into your workspace where this project resides.</li>
+     <li> Input file will be given in following order</li>
+     <li>C:\...(Datasetpath)</li>
+     <li>C:\.. (Cardfile)</li>
+     <li>C:\..(finaloutputfile)</li>
+  <li> Choose <b>Customer.java</b> and run this file. This is the file containing main().</li>
+  <li> User will be prompted to "Enter the file name :" , enter the relevant input file name </li>
+  <li> Project will run successfully and the corresponding output.csv or error.txt files will be created in the same project folder structure in the workspace.</li>
+ 
+</ol>
 
+## Design Patterns:
+<ol>
+     <li>-Iterator</li>
+     <li>-Singleton</li>
+     <li>-Factory</li>
+     <li> Explanation [Click here] (https://github.com/gopinathsjsu/individual-project-kapilgeet123/blob/main/Documents/202%20Report.pdf)
+</ol>
 
 ## Screenshots of Test Cases:
 
@@ -30,11 +41,11 @@ C:\..(finaloutputfile)
 
 #### Input:
 
-![](Documents/Screenshot/Input1a.PNG)
+![](Documents/Screenshot/input1a.PNG)
      
 #### Output:
 
-![](Documents/Screenshot/Input1b.PNG)
+![](Documents/Screenshot/input1b.PNG)
 
 ### Test Case 2: 
 
@@ -50,10 +61,15 @@ C:\..(finaloutputfile)
 
 #### Input:
 
-![](Documents/Screenshot/Input1f.png)
+![](Documents/Screenshot/input1f.png)
      
 #### Output:
 
 ![](Documents/Screenshot/input1g.png)
 
+### Card output: 
+![](Documents/Screenshot/input1h.png)
+
+### Class digram:
+[click here](https://github.com/gopinathsjsu/individual-project-kapilgeet123/blob/main/Documents/Screenshot/class%20diagram%204.pdf)
 
