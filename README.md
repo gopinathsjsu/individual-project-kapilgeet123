@@ -29,7 +29,7 @@ Needs Java 8 installed in the system that is running the program.
 
 ## Design Patterns:
 <ol>
-     <li>-Iterator</li>
+     <li>-Iterator [click here] (https://github.com/gopinathsjsu/individual-project-kapilgeet123/blob/main/Documents/Screenshot/Iteratorpattern.pdf)</li>
      <li>-Singleton</li>
      <li>-Factory</li>
      <li> Explanation [Click here] (https://github.com/gopinathsjsu/individual-project-kapilgeet123/blob/main/Documents/202%20Report.pdf)
